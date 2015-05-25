@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		C3DE259C1B1241800036CCC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE259B1B1241800036CCC9 /* main.m */; };
 		C3DE259F1B1241800036CCC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE259E1B1241800036CCC9 /* AppDelegate.m */; };
-		C3DE25A21B1241800036CCC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25A11B1241800036CCC9 /* ViewController.m */; };
-		C3DE25A51B1241800036CCC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25A31B1241800036CCC9 /* Main.storyboard */; };
 		C3DE25A71B1241800036CCC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25A61B1241800036CCC9 /* Images.xcassets */; };
-		C3DE25AA1B1241800036CCC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25A81B1241800036CCC9 /* LaunchScreen.xib */; };
 		C3DE25B61B1241800036CCC9 /* LawyerOrganizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25B51B1241800036CCC9 /* LawyerOrganizerTests.m */; };
+		C3DE25C21B1259ED0036CCC9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25C11B1259ED0036CCC9 /* Default-568h@2x.png */; };
+		C3DE25C61B125C040036CCC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25C41B125C040036CCC9 /* ViewController.m */; };
+		C3DE25C71B125C040036CCC9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3DE25C51B125C040036CCC9 /* ViewController.xib */; };
+		C3DE25CD1B1266920036CCC9 /* ClientList.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25CC1B1266920036CCC9 /* ClientList.m */; };
+		C3DE25D11B126A800036CCC9 /* ClientSvcCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DE25D01B126A800036CCC9 /* ClientSvcCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,19 @@
 		C3DE259B1B1241800036CCC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3DE259D1B1241800036CCC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3DE259E1B1241800036CCC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3DE25A01B1241800036CCC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3DE25A11B1241800036CCC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C3DE25A41B1241800036CCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3DE25A61B1241800036CCC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C3DE25A91B1241800036CCC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C3DE25AF1B1241800036CCC9 /* LawyerOrganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LawyerOrganizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DE25B41B1241800036CCC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3DE25B51B1241800036CCC9 /* LawyerOrganizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LawyerOrganizerTests.m; sourceTree = "<group>"; };
+		C3DE25C11B1259ED0036CCC9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C3DE25C31B125C040036CCC9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C3DE25C41B125C040036CCC9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C3DE25C51B125C040036CCC9 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		C3DE25CB1B1266920036CCC9 /* ClientList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientList.h; sourceTree = "<group>"; };
+		C3DE25CC1B1266920036CCC9 /* ClientList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientList.m; sourceTree = "<group>"; };
+		C3DE25CE1B1268B60036CCC9 /* ClientListSvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClientListSvc.h; sourceTree = "<group>"; };
+		C3DE25CF1B126A800036CCC9 /* ClientSvcCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientSvcCache.h; sourceTree = "<group>"; };
+		C3DE25D01B126A800036CCC9 /* ClientSvcCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientSvcCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +70,7 @@
 		C3DE258D1B1241800036CCC9 = {
 			isa = PBXGroup;
 			children = (
+				C3DE25C11B1259ED0036CCC9 /* Default-568h@2x.png */,
 				C3DE25981B1241800036CCC9 /* LawyerOrganizer */,
 				C3DE25B21B1241800036CCC9 /* LawyerOrganizerTests */,
 				C3DE25971B1241800036CCC9 /* Products */,
@@ -81,13 +89,13 @@
 		C3DE25981B1241800036CCC9 /* LawyerOrganizer */ = {
 			isa = PBXGroup;
 			children = (
+				C3DE25C81B1264B60036CCC9 /* Model */,
 				C3DE259D1B1241800036CCC9 /* AppDelegate.h */,
 				C3DE259E1B1241800036CCC9 /* AppDelegate.m */,
-				C3DE25A01B1241800036CCC9 /* ViewController.h */,
-				C3DE25A11B1241800036CCC9 /* ViewController.m */,
-				C3DE25A31B1241800036CCC9 /* Main.storyboard */,
+				C3DE25C31B125C040036CCC9 /* ViewController.h */,
+				C3DE25C41B125C040036CCC9 /* ViewController.m */,
+				C3DE25C51B125C040036CCC9 /* ViewController.xib */,
 				C3DE25A61B1241800036CCC9 /* Images.xcassets */,
-				C3DE25A81B1241800036CCC9 /* LaunchScreen.xib */,
 				C3DE25991B1241800036CCC9 /* Supporting Files */,
 			);
 			path = LawyerOrganizer;
@@ -117,6 +125,18 @@
 				C3DE25B41B1241800036CCC9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3DE25C81B1264B60036CCC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3DE25CB1B1266920036CCC9 /* ClientList.h */,
+				C3DE25CC1B1266920036CCC9 /* ClientList.m */,
+				C3DE25CE1B1268B60036CCC9 /* ClientListSvc.h */,
+				C3DE25CF1B126A800036CCC9 /* ClientSvcCache.h */,
+				C3DE25D01B126A800036CCC9 /* ClientSvcCache.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +219,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DE25A51B1241800036CCC9 /* Main.storyboard in Resources */,
-				C3DE25AA1B1241800036CCC9 /* LaunchScreen.xib in Resources */,
 				C3DE25A71B1241800036CCC9 /* Images.xcassets in Resources */,
+				C3DE25C71B125C040036CCC9 /* ViewController.xib in Resources */,
+				C3DE25C21B1259ED0036CCC9 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3DE25A21B1241800036CCC9 /* ViewController.m in Sources */,
+				C3DE25C61B125C040036CCC9 /* ViewController.m in Sources */,
+				C3DE25D11B126A800036CCC9 /* ClientSvcCache.m in Sources */,
 				C3DE259F1B1241800036CCC9 /* AppDelegate.m in Sources */,
+				C3DE25CD1B1266920036CCC9 /* ClientList.m in Sources */,
 				C3DE259C1B1241800036CCC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,25 +264,6 @@
 			targetProxy = C3DE25B01B1241800036CCC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C3DE25A31B1241800036CCC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3DE25A41B1241800036CCC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C3DE25A81B1241800036CCC9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C3DE25A91B1241800036CCC9 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C3DE25B71B1241800036CCC9 /* Debug */ = {
